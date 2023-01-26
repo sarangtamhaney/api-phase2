@@ -1,0 +1,48 @@
+{
+  "Friends": [
+    {
+      "firstname": "Smita",
+      "lastname": "Shewale",
+      "id": 231,
+      "age": 30
+    },
+    {
+      "firstname": "Anirudha",
+      "lastname": "Patil",
+      "id": 232,
+      "age": 25
+    },
+    {
+      "firstname": "mahesh",
+      "address": [
+        {
+          "streetName": "snbp road",
+          "houseNo": "111"
+        },
+        {
+          "streetName": "back snbp road",
+          "houseNo": "121"
+        }
+      ],
+      "id": 100,
+      "age": 30,
+      "lastname": "bhandigare"
+    },
+    {
+      "firstname": "mahesh1",
+      "address": {
+        "streetName": "snbp road",
+        "houseNo": "111"
+      },
+      "id": 1000,
+      "age": 30,
+      "lastname": "bhandigare1"
+    },
+    {
+      "firstname": "vaibhav",
+      "id": 50,
+      "age": 30,
+      "lastname": "barmkar"
+    }
+  ]
+}
