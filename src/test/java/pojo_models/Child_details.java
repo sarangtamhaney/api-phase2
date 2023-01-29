@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @Data
-public class ChildDetails {
+public class Child_details {
 
     private String fullname;
     private int age;

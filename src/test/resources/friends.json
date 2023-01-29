@@ -1,0 +1,83 @@
+{
+  "friends": [
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": "",
+      "age": 35
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 62,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 416,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 316,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 76,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 443,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 490,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 487,
+      "age": 35,
+      "address": null
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Lanjewar",
+      "id": 314,
+      "age": 35,
+      "address": null
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @Data
-public class IncidentDetails {
+public class Incident_details {
 
     @JsonProperty("incident_date")
     private String incidentDate;

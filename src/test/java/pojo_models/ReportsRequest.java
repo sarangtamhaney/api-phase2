@@ -13,11 +13,11 @@ import lombok.*;
 public class ReportsRequest {
 
     @JsonProperty("reporter_details")
-    private ReporterDetails reporterDetails;
+    private Reporter_details reporterDetails;
 
     @JsonProperty("child_details")
-    private ChildDetails childDetails;
+    private Child_details childDetails;
 
     @JsonProperty("incident_details")
-    private IncidentDetails incidentDetails;
+    private Incident_details incidentDetails;
 }

@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @Data
-public class ReporterDetails {
+public class Reporter_details {
 
     @JsonProperty("request_id")
     private String requestId;

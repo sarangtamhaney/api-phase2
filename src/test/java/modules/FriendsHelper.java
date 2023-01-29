@@ -3,6 +3,7 @@ package modules;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
+import org.json.simple.JSONObject;
 import pojo_models.FriendWithLombok;
 import utilities.RestAssuredEngine;
 
@@ -14,7 +15,7 @@ public class FriendsHelper {
 	
 	public ResponseOptions<Response> addFriends(String methodName, String serviceEndpoint, Object body){
 		RestAssuredEngine restAssuredEngine = new RestAssuredEngine("token");
-		return restAssuredEngine.executeWithPathParamsAndBody(methodName, serviceEndpoint, body);
+		return restAssuredEngine.executeWithPathParamsAndBody(methodName, serviceEndpoint, (JSONObject) body, null);
 	}
 
 	public FriendWithLombok getFriendsPayload() {
